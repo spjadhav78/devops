@@ -1,0 +1,32 @@
+[root@ip-172-31-87-62 devops]# history
+    1  ll
+    2  pwd
+    3  ll
+    4  cd /opt/
+    5  mkdir -p /opt/devopsmaterial
+    6  ll
+    7  cd devopsmaterial/
+    8  pwd
+    9  cd ..
+   10  mkdir -p devops && cd /opt/devops
+   11  mkdir -p /opt/devops && cd /opt/devops
+   12  git init
+   13  yum install git
+   14  history
+   15  vi linuxcommand.txt
+   16  cat linuxcommand.txt
+   17  git status
+   18  ll
+   19  pwd
+   20  ls -lart
+   21  git init - (This command creates an empty Git repository)
+   22  git status - (git status shows the state of the working directory and the staging area.)
+   23  history
+   24  git add linuxcommand.txt - (Create a new file in a root directory or in a subdirectory, or update an existing file.)
+   25  git status
+   26  git commit -m "my first commit" - (git commit. The "commit" command is used to save your changes to the local repository.)
+   27  git status
+   28  git remote add origin https://github.com/spjadhav78/devops.git -(To add a new remote, use the git remote add command on the terminal, in the directory your repository is stored at.)
+   29  git push -u origin master - (The git push command is used to upload local repository content to a remote repository. Pushing is how you transfer commits from your local repository to a remote repo.)
+   30  history
+
