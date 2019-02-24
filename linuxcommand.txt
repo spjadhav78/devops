@@ -1,0 +1,17 @@
+[root@ip-172-31-87-62 devops]# history
+    1  ll
+    2  pwd
+    3  ll
+    4  cd /opt/
+    5  mkdir -p /opt/devopsmaterial
+    6  ll
+    7  cd devopsmaterial/
+    8  pwd
+    9  cd ..
+   10  mkdir -p devops && cd /opt/devops
+   11  mkdir -p /opt/devops && cd /opt/devops
+   12  git init
+   13  yum install git
+   14  history
+[root@ip-172-31-87-62 devops]#
+
